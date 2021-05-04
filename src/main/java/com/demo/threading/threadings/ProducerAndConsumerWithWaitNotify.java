@@ -1,14 +1,11 @@
-package com.demo.java.threadings;
-
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
+package com.demo.threading.threadings;
 
 //Que. Create Producer Consumer without blocking queues
 //Ans. 1. Using Locks and condition & Wait n notify method
-public class ProducerAndConsumerWithoutBlockingQueue {
+public class ProducerAndConsumerWithWaitNotify {
     public static void main(String[] args) throws InterruptedException {
 
-        MyBlockingQueue<Item> queue = new MyBlockingQueue<>(10);
+        MyBlockingQueue2<Item> queue = new MyBlockingQueue2<>(10);
 
         //Producer
         final Runnable producer = () -> {

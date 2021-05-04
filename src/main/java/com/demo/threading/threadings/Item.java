@@ -1,4 +1,4 @@
-package com.demo.java.threadings;
+package com.demo.threading.threadings;
 
 public class Item {
     private double price;

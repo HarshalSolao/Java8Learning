@@ -1,4 +1,4 @@
-package com.demo.java;
+package com.demo.threading;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.demo.java.threadings;
+package com.demo.threading.threadings;
 
 import java.util.LinkedList;
 import java.util.Queue;

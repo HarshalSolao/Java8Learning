@@ -1,9 +1,7 @@
-package com.demo.java.threadings;
+package com.demo.threading.threadings;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 
 //For Multithreaded environment to work with queue need safety for that we need to use
 // wait and notify
